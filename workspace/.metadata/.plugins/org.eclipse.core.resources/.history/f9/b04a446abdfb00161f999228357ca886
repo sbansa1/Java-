@@ -1,0 +1,54 @@
+/*
+ *TemperatureApp.java
+ *Programmer: Saurabh Bansal
+ *ULID : 819654128
+ *Feb 25, 2017
+ * 
+ *Class: IT 168
+ *Lecture Section: 
+ *Lecture Instructor: Patricia Mastuda
+ *Lab Section:
+ *Lab Instructor:
+ */
+package edu.ilstu;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+/**
+ *<insert class description here>
+ * 
+ *@author Saurabh Bansal
+ *
+ */
+
+public class TemperatureApp {
+
+	public static void main(String[] args) {
+
+		DecimalFormat df = new DecimalFormat("#.00");
+		Scanner keyboard = new Scanner(System.in);
+		int celcius = 0;
+		int fahrenheit = 0;
+		int kelvin = 0;
+		System.out.print("Enter temperature in celcius \t");
+		celcius = keyboard.nextInt();
+		System.out.println("In Fahrenheit :" + df.format(TemperatureConverter.celsiusToFahrenheit(celcius)));
+		System.out.println("In Kelvin :" + df.format(TemperatureConverter.celciusToKelvin(celcius)));
+		System.out.println();
+		System.out.print("Enter temperature in fahrenheit: ");
+		fahrenheit = keyboard.nextInt();
+		System.out.println("In Celcius :" + df.format(TemperatureConverter.fahrenheitToCelcius(fahrenheit)));
+		System.out.println("In Kelvin :" + df.format(TemperatureConverter.fahrenheitToKelvin(fahrenheit)));
+		System.out.println();
+		System.out.print("Enter temperature in Kelvin: ");
+		kelvin = keyboard.nextInt();
+		System.out.println("In Celcius :" + df.format(TemperatureConverter.kelvinToCelcius(kelvin)));
+		System.out.println("In Fahrenheit :" + df.format(TemperatureConverter.kelvinToFahrenheit(kelvin)));
+
+		keyboard.close();
+	}
+
+}
+
+
+}

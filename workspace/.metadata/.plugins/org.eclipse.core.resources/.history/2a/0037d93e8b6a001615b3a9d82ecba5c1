@@ -1,0 +1,30 @@
+package trial;
+
+public class CardsBag
+{
+
+public static void main(String[]args){
+
+	int a = 5;
+	int b = 4;
+	int c = 2;
+	int d = 9;
+	int e = 7;
+	int number= 5;
+	System.out.println("total number of cards in a bag" + number);
+    System.out.println("card Drawn");
+    number = number - 1;
+    System.out.println("Second Card Drawn");
+    number--;
+    System.out.println("number of cards" + number);
+    if (a>b){
+    	System.out.println(" card a is greater");
+    }
+    else {
+    	System.out.println("Card b is greater of the two");
+
+    	}
+    }
+}
+}
+

@@ -1,0 +1,56 @@
+/*
+ *TemperatureConverterr.java
+ *Programmer: Saurabh Bansal
+ *ULID : 819654128
+ *Feb 25, 2017
+ * 
+ *Class: IT 168
+ *Lecture Section: 
+ *Lecture Instructor: Patricia Mastuda
+ *Lab Section:
+ *Lab Instructor:
+ */
+package edu.ilstu;
+
+/**
+ *<insert class description here>
+ * 
+ *@author Saurabh Bansal
+ *
+ */
+
+
+public class TemperatureConverterr {
+
+	public static double celsiusToFahrenheit(double celcius) {
+		double farenheit = (celcius) * (9.0 / 5.0) + 32;
+		return farenheit;
+
+	}
+
+	public static double celciusToKelvin(double celcius) {
+		double kelvin = (celcius) + 273.15;
+		return kelvin;
+	}
+
+	public static double fahrenheitToCelcius(double fahrenheit) {
+		double celcius = (fahrenheit - 32) * (5.0 / 9.0);
+		return celcius;
+	}
+
+	public static double fahrenheitToKelvin(double fahrenheit) {
+		double kelvin = (fahrenheit - 32) * (5.0 / 9.0) + 273.15;
+		return kelvin;
+	}
+
+	public static double kelvinToCelcius(double kelvin) {
+		double celcius = (kelvin - 273.15);
+		return celcius;
+	}
+
+	public static double kelvinToFahrenheit(double kelvin) {
+		double fahrenheit = (kelvin - 273.15) * (9.0 / 5.0) + 32;
+		return fahrenheit;
+	}
+}
+

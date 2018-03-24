@@ -1,0 +1,109 @@
+/*
+* File name: StringExperiment.java
+*
+* Programmer: Paul von Ebers
+* ULID: plvoneb
+*
+* Date: Feb 8, 2017
+*
+* Class: IT 168
+* Lecture Section: 13
+* Lecture Instructor: Dr. David Sikolia
+* Lab Section: 15
+* Lab Instructor: Saurabh Bansal
+*/
+
+/**
+* Playing around with strings.
+*
+* @author Paul von Ebers
+*
+*/
+public class StringExperiment
+{
+
+	
+	public static void main(String[] args)
+	{
+		
+		//	Name, in 3 seperate strings.
+		String firstName = "Paul";		
+		String middleName = "Liam";
+		String lastName = "von Ebers";
+		
+		//	Full name with spaces.
+		System.out.println(firstName + " " + middleName + " " + lastName);
+		
+		//	Full name with middle initial
+		System.out.println(firstName + " " + middleName.substring(0, 1) + ". " + lastName);
+		
+		//	Full name with first in upper, last in lower case
+		System.out.println(firstName.toUpperCase() + " " + lastName.toLowerCase());
+		
+		//	length of last name
+		System.out.println("Length of last name: " + lastName.length());
+		
+		//	Middle position of last name
+		System.out.println("Middle character of last name: " + lastName.substring((lastName.length() / 2), (lastName.length() / 2) + 1));
+		
+		//	Last letter of first name
+		System.out.println("Last letter of first name: " + firstName.charAt (firstName.length() - 1));
+	
+	}
+
+}
+/*
+* File name: StringExperiment.java
+*
+* Programmer: Paul von Ebers
+* ULID: plvoneb
+*
+* Date: Feb 8, 2017
+*
+* Class: IT 168
+* Lecture Section: 13
+* Lecture Instructor: Dr. David Sikolia
+* Lab Section: 15
+* Lab Instructor: Saurabh Bansal
+*/
+package edu.ilstu;
+
+/**
+* Playing around with strings.
+*
+* @author Paul von Ebers
+*
+*/
+public class StringExperiment
+{
+
+	
+	public static void main(String[] args)
+	{
+		
+		//	Name, in 3 seperate strings.
+		String firstName = "Paul";		
+		String middleName = "Liam";
+		String lastName = "von Ebers";
+		
+		//	Full name with spaces.
+		System.out.println(firstName + " " + middleName + " " + lastName);
+		
+		//	Full name with middle initial
+		System.out.println(firstName + " " + middleName.substring(0, 1) + ". " + lastName);
+		
+		//	Full name with first in upper, last in lower case
+		System.out.println(firstName.toUpperCase() + " " + lastName.toLowerCase());
+		
+		//	length of last name
+		System.out.println("Length of last name: " + lastName.length());
+		
+		//	Middle position of last name
+		System.out.println("Middle character of last name: " + lastName.substring((lastName.length() / 2), (lastName.length() / 2) + 1));
+		
+		//	Last letter of first name
+		System.out.println("Last letter of first name: " + firstName.charAt (firstName.length() - 1));
+	
+	}
+
+}

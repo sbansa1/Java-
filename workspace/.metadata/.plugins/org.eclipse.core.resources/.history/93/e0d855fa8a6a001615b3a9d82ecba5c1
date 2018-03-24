@@ -1,0 +1,29 @@
+package trial;
+
+public class CardsBag
+{
+
+public static void main(String[]args){
+
+	int cards [] = {2,4,5,6,7};
+	System.out.println("Draw a card");
+	for (int i=5;i>=cards.length;i--){
+		 System.out.println("fuck you");
+		 System.out.println("drawn");
+		 if(cards[3]> cards[4]){
+			 System.out.println("3 is bigger");
+		 }
+		 else {
+			 System.out.println("discard it");
+		 }
+		 
+			 
+		 }
+		 
+	}
+	 
+	
+	
+	
+}
+

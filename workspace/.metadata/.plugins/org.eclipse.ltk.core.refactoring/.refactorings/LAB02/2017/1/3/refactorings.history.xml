@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;edu.ilstu.DistanceCalculator&apos; to &apos;MileageCalculator&apos;&#x0A;- Original project: &apos;LAB02&apos;&#x0A;- Original element: &apos;edu.ilstu.DistanceCalculator&apos;&#x0A;- Renamed element: &apos;edu.ilstu.MileageCalculator&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DistanceCalculator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;edu.ilstu{DistanceCalculator.java[DistanceCalculator" matchStrategy="1" name="MileageCalculator" qualified="false" references="true" similarDeclarations="false" stamp="1484957653556" textual="false" version="1.0"/>
+</session>
